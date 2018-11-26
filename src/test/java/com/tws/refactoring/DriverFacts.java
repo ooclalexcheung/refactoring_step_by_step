@@ -8,8 +8,8 @@ public class DriverFacts {
     @Test
     void shouldGetDriverAge(){
         Police police = new Police();
-        assertTrue(police.checkDriver(new Driver(18)));
-        assertFalse(police.checkDriver(new Driver(17)));
+        assertTrue(police.checkDriverAge(new Driver(18)));
+        assertFalse(police.checkDriverAge(new Driver(17)));
     }
 
 }
